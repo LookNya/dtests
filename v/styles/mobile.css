@@ -1,0 +1,24 @@
+@media (min-width: 0px) and (max-width: 1180px) {
+.cl_top{
+	top: -1px;
+}
+.ca_right{
+	left: -1px;
+}
+}
+@media (min-width: 720px) and (max-width: 1180px) {
+.card_wrap:nth-child(1){
+	position: relative;
+	left: 50%;
+	margin-left: -160px;
+	margin-bottom: 50px;
+	float: none;
+}
+}
+@media (min-width: 0px) and (max-width: 720px) {
+.card_wrap{
+	margin: 20px auto!important;
+	float: none;
+	width: 320px;
+}
+}
